@@ -1,32 +1,46 @@
-# Sistema de Inventario para Minimarket
+Sistema de Inventario de un Minimarket
 
-## Descripción
+Objetivo
 
-Sistema desarrollado para facilitar la gestión y control del inventario de un minimarket.
+Desarrollar una solución digital que facilite el control y la administración de los productos de un minimarket, permitiendo organizar las existencias y mejorar el seguimiento de las entradas y salidas.
 
-## Objetivo
+Problema que resuelve
 
-Desarrollar una solución que permita organizar y controlar de manera eficiente los productos disponibles en el minimarket.
+El control manual del inventario puede generar errores en las cantidades registradas, pérdida de información y dificultades para identificar los productos que necesitan reposición. El sistema busca organizar estos procesos de manera digital.
 
-## Funcionalidades principales
+Funcionalidades principales
 
-- Consultar inventario.
-- Registrar entradas y salidas de productos.
-- Buscar productos.
-- Gestionar productos.
-- Identificar productos con bajo inventario.
+* Consultar el inventario.
+* Registrar entradas y salidas de productos.
+* Identificar productos con existencias bajas.
+* Buscar productos.
+* Gestionar la información de los productos.
 
-## Tecnologías utilizadas
+Arquitectura seleccionada
 
-- C#
-- Windows Forms
-- GitHub
-- Visual Paradigm
+Se propone una arquitectura cliente-servidor organizada en capas.
 
-## Gestión del proyecto
+Frontend: permitirá al usuario consultar los productos, utilizar formularios, buscar artículos y visualizar las existencias.
 
-El seguimiento de las actividades se realizó mediante GitHub Projects utilizando una metodología basada en Kanban.
+Backend: procesará las solicitudes, validará los datos, aplicará las reglas de negocio y gestionará las operaciones relacionadas con el inventario.
 
-## Arquitectura
+Comunicación: el frontend enviará solicitudes al backend mediante una API. El backend procesará cada solicitud y devolverá una respuesta para mostrar el resultado al usuario.
 
-El sistema contempla la separación entre la interfaz de usuario, la lógica de negocio y la gestión de datos.
+Herramientas utilizadas
+
+* GitHub para el repositorio y el control de cambios.
+* GitHub Projects para la gestión de tareas.
+* Visual Paradigm Online para los diagramas UML.
+* Markdown para la documentación técnica.
+
+Estado actual
+
+El proyecto dispone de avances de análisis, diseño y planificación. La implementación y las pruebas deben completarse o verificarse según el estado real de las funcionalidades.
+
+Próximos pasos
+
+* Organizar las evidencias técnicas.
+* Revisar los Issues.
+* Actualizar el tablero de GitHub Projects.
+* Completar las funcionalidades pendientes.
+* Documentar y verificar las pruebas del sistema.
